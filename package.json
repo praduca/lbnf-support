@@ -3,23 +3,23 @@
   "displayName": "LBNF-support",
   "description": "Support for lbnf files used with the BNF Converter (BNFC).",
   "version": "0.9.0",
-  "engines": {
-    "vscode": "^1.70.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
+  "engines": {"vscode": "^1.70.0"},
+  "categories": ["Programming Languages"],
   "contributes": {
-    "languages": [{
-      "id": "lbnf",
-      "aliases": ["LBNF", "lbnf"],
-      "extensions": [".cf"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "lbnf",
-      "scopeName": "source.lbnf",
-      "path": "./syntaxes/lbnf.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "lbnf",
+        "aliases": ["LBNF", "lbnf"],
+        "extensions": [".cf"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "lbnf",
+        "scopeName": "source.lbnf",
+        "path": "./syntaxes/lbnf.tmLanguage.json"
+      }
+    ]
   }
 }
