@@ -21,7 +21,8 @@
         "path": "./syntaxes/lbnf.tmLanguage.json"
       }
     ]
-  }"icon": "docs/icon.png",
+  },
+  "icon": "docs/icon.png",
   "keywords": ["bnf", "bnfc", "lbnf", "syntax-highlighting"],
   "dependencies": {"vsce": "^2.10.0"}
 }
